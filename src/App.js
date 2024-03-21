@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import catPicture from './cat.jpg'; // Importing cat picture
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={catPicture} className="App-logo" alt="cat" /> {/* Using cat picture */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
